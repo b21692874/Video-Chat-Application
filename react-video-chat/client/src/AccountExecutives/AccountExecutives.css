@@ -1,0 +1,30 @@
+.acceptCallContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.acceptCallWrap{
+  border: 2px solid #f0c040;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 15%;
+  padding-bottom: 1%;
+  border-radius: 5%;
+}
+.acceptCallButton{
+    border: 0.1rem #c0c0c0 solid;
+    background-color: #f0f0f0;
+    border-radius: 15%;
+    cursor: pointer;
+    margin: 0.5%;
+  }
+.acceptCallButton:hover {
+    border: 0.1rem #808080 solid;
+    background-color: #f0c040;
+  }
